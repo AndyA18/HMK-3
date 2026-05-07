@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HMK-3/static/css/main.20f4d140.css",
+    "main.js": "/HMK-3/static/js/main.dbd0250d.js",
+    "index.html": "/HMK-3/index.html",
+    "main.20f4d140.css.map": "/HMK-3/static/css/main.20f4d140.css.map",
+    "main.dbd0250d.js.map": "/HMK-3/static/js/main.dbd0250d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20f4d140.css",
+    "static/js/main.dbd0250d.js"
+  ]
+}
