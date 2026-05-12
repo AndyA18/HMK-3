@@ -18,7 +18,7 @@ const StatisticLine = ({current_value, text}) => {
 }
 
 const Statistics = ({train, bus, car}) => {
-    if((train+bus+car) == 0){
+    if((train+bus+car) === 0){
         return(
             <div className="no_statistics">
                 <h1>Yearly Statistics</h1>
@@ -26,6 +26,9 @@ const Statistics = ({train, bus, car}) => {
             </div>
         )
     }
+
+    const total = train + bus + car;
+
     return(
         <div className="all_statistics">
             <h1>Yearly Statistics</h1>
@@ -33,6 +36,7 @@ const Statistics = ({train, bus, car}) => {
                     <StatisticLine text="Train" current_value={train}></StatisticLine>
                     <StatisticLine text="Bus" current_value={bus}></StatisticLine>
                     <StatisticLine text="Car" current_value={car}></StatisticLine>
+                    <StatisticLine text="Total" current_value={total}></StatisticLine>
                 </table>
         </div>
     );
